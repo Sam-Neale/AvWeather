@@ -1,0 +1,315 @@
+[
+    {
+        "code": "YMMB",
+        "name": "Moorabbin Airport",
+        "address": "-37.97568959920473, 145.0967297089307",
+        "imageName": "ymmb",
+        "dateIdentifier": "Australia/Melbourne",
+        "hasATIS": true,
+        "isFavourite": false,
+        "IDRNum": "023",
+        "awis": "0384703216",
+        "isControlled": true,
+        "isPartial": false,
+        "frequencies" : [
+            ["ATIS", "120.9"],
+            ["Ground", "134.25"],
+            ["Tower East", "118.1"],
+            ["Tower West", "123.0"]
+        ]
+    },
+    {
+        "code": "YMEN",
+        "name": "Essendon Fields Airport",
+        "address": "-37.725509719770415, 144.90097193227808",
+        "imageName": "ymen",
+        "dateIdentifier": "Australia/Melbourne",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "023",
+        "awis": "0384703207",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "119.8"],
+            ["Ground", "121.9"],
+            ["Tower", "125.1"]
+        ]
+    },
+    {
+        "code": "YMML",
+        "name": "Melbourne Tullamarine Airport",
+        "address": "-37.66720653257036, 144.8394352063022",
+        "imageName": "ymml",
+        "dateIdentifier": "Australia/Melbourne",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "023",
+        "awis": "03 8470 3214",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "114.1 & 118.0"],
+            ["Ground", "121.7"],
+            ["Tower", "120.5"]
+        ]
+    },
+    {
+        "code": "YMAV",
+        "name": "Avalon Airport",
+        "address": "-38.03523, 144.47218",
+        "imageName": "ymav",
+        "dateIdentifier": "Australia/Melbourne",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "023",
+        "awis": "0352821769",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "116.1 & 118.2"],
+            ["Tower", "120.1"],
+            ["Unicom", "129.3"]
+        ]
+    },
+    {
+        "code": "YSSY",
+        "name": "Sydney (Kingsford Smith) Airport",
+        "address": "-33.94157030097239, 151.17563533997915",
+        "imageName": "yssy",
+        "dateIdentifier": "Australia/Sydney",
+        "hasATIS": true,
+        "isFavourite": false,
+        "IDRNum": "713",
+        "awis": "0293536450",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "118.55"],
+            ["Ground East", "121.7"],
+            ["Ground West", "126.5"],
+            ["Tower 16L/34R", "124.7" ],
+            ["Tower 16R/34L & 07/25", "120.5"]
+        ]
+    },
+    {
+        "code": "YSBK",
+        "name": "Bankstown Airport",
+        "address": "-33.92306038192217, 150.9902363604676",
+        "imageName": "ysbk",
+        "dateIdentifier": "Australia/Sydney",
+        "hasATIS": true,
+        "isFavourite": false,
+        "IDRNum": "713",
+        "awis": "0297913152",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "120.9"],
+            ["Ground", "119.9"],
+            ["Tower", "123.6 & 132.8"]
+        ]
+    },
+    {
+        "code": "YPPH",
+        "name": "Perth Airport",
+        "address": "-31.94217598748284, 115.96470258994451",
+        "imageName": "ypph",
+        "dateIdentifier": "Australia/Perth",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "703",
+        "awis": "0862162633",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "113.7 & 123.8"],
+            ["Ground", "121.7 & 122.2"],
+            ["Tower", "127.4"]
+        ]
+    },
+    {
+        "code": "YRTI",
+        "name": "Rottnest Airport",
+        "address": "-32.00633578537307, 115.54077346209",
+        "imageName": "yrti",
+        "dateIdentifier": "Australia/Perth",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "703",
+        "awis": "0894867602",
+        "isControlled": false,
+        "frequencies" : [
+            ["CTAF", "126.0"]
+        ]
+    },
+    {
+        "code": "YSCB",
+        "name": "Canberra Airport",
+        "address": "-35.30680039126654, 149.19399155673113",
+        "imageName": "yscb",
+        "dateIdentifier": "Australia/Canberra",
+        "hasATIS": true,
+        "isFavourite": false,
+        "IDRNum": "403",
+        "awis": "0262574687",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS","116.7"],
+            ["Ground", "121.7"],
+            ["Tower", "118.7"]
+        ]
+    },
+    {
+        "code": "YWLM",
+        "name": "Newcastle Airport",
+        "address": "-32.80009467612735, 151.83985391370373",
+        "imageName": "ywlm",
+        "dateIdentifier": "Australia/Sydney",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "043",
+        "awis": "0293536460",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "134.25"],
+            ["Ground", "121.8"],
+            ["Tower", "118.3"]
+        ]
+    },
+    {
+        "code": "YPAD",
+        "name": "Adelaide Airport",
+        "address": "-34.947905150254854, 138.5325363106018",
+        "imageName": "ypad",
+        "dateIdentifier": "Australia/Adelaide",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "643",
+        "awis": "0883535819",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "116.4 & 134.5"],
+            ["Ground", "121.7"],
+            ["Tower", "120.5"]
+        ]
+    },
+    {
+        "code": "YBBN",
+        "name": "Brisbane Airport",
+        "address": "-27.38904801249665, 153.1175112961174",
+        "imageName": "ybbn",
+        "dateIdentifier": "Australia/Brisbane",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "1053",
+        "awis": "0735643705",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "113.2"],
+            ["Ground Domestic", "121.7"],
+            ["Ground South", "122.25"],
+            ["Ground North", "124.05"],
+            ["Tower 01L/19R", "118.0"],
+            ["Tower 01R/19L", "120.5"]
+        ]
+    },
+    {
+        "code": "YMHB",
+        "name": "Hobart Airport",
+        "address": "-42.83645943186152, 147.51203742155522",
+        "imageName": "ymhb",
+        "dateIdentifier": "Australia/Hobart",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "763",
+        "awis": "0362484395",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "112.7"],
+            ["Ground", "121.7"],
+            ["Tower", "118.1"]
+        ]
+    },
+    {
+        "code": "YBCS",
+        "name": "Cairns Airport",
+        "address": "-16.879917512582676, 145.75002132065373",
+        "imageName": "ybcs",
+        "dateIdentifier": "Australia/Brisbane",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "193",
+        "awis": "0735643708",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "113.0 & 131.1"],
+            ["Ground", "121.7"],
+            ["Tower", "124.9"]
+        ]
+    },
+    {
+        "code": "YBCG",
+        "name": "Gold Coast Airport",
+        "address": "-28.16548166806576, 153.50657748217517",
+        "imageName": "ybcg",
+        "dateIdentifier": "Australia/Brisbane",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "663",
+        "awis": "0755366835",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "112.3 & 134.5"],
+            ["Ground", "121.8"],
+            ["Tower", "118.7"],
+            ["Tower", "121.8"]
+        ]
+    },
+    {
+        "code": "YPDN",
+        "name": "Darwin Airport",
+        "address": "-12.415360081998992, 130.87944621936504",
+        "imageName": "ypdn",
+        "dateIdentifier": "Australia/Darwin",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "633",
+        "awis": "0889242318",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "128.25"],
+            ["Approach", "123.0"],
+            ["Ground", "119.55 & 121.8"],
+            ["Tower", "133.1"]
+        ]
+    },
+    {
+        "code": "YPJT",
+        "name": "Jandakot Airport",
+        "address": "-32.09574, 115.87726",
+        "imageName": "ypjt",
+        "dateIdentifier": "Australia/Perth",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "703",
+        "awis": "0862162618",
+        "isControlled": true,
+        "frequencies" : [
+            ["ATIS", "128.65"],
+            ["Ground", "124.3"],
+            ["Tower", "118.1"],
+            ["Tower", "119.4"]
+        ]
+    },
+    {
+        "code": "YBUN",
+        "name": "Bunbury Airport",
+        "address": "-33.37763, 115.67852",
+        "imageName": "ybun",
+        "dateIdentifier": "Australia/Perth",
+        "hasATIS": false,
+        "isFavourite": false,
+        "IDRNum": "703",
+        "awis": null,
+        "isControlled": false,
+        "frequencies" : [
+            ["CTAF", "127.0"],
+            ["Melbourne Centre", "124.9"]
+        ]
+    }
+]
