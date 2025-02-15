@@ -1,11 +1,12 @@
 import { CloudSunFill } from "react-bootstrap-icons";
 import airportData from "./assets/airportData.json";
-
-function updatedAirport(e) {
-  console.log(e.target.value);
-}
+import { UserContext } from "./sharedData";
+import React from "react";
+import AirportSelector from "./components/airportSelector";
 
 function Welcome() {
+  const { airport, setAirport } = React.useContext(UserContext);
+
   return (
     <div>
       <h1 className="text-4xl font-bold">
@@ -13,25 +14,9 @@ function Welcome() {
           Welcome to <CloudSunFill className="inline-block mb-3" /> AvWeather,
         </span>
       </h1>
-      <p>Select an airport below</p>
-      <hr />
-      <fieldset className="fieldset">
-        <legend className="fieldset-legend">Airports</legend>
-        <select
-          onChange={updatedAirport}
-          defaultValue="Pick an airport"
-          className="select"
-        >
-          <option disabled={true}>Pick an airport</option>
-          {airportData.map((airport) => {
-            return (
-              <option value={airport.code}>
-                ({airport.code}) {airport.name}
-              </option>
-            );
-          })}
-        </select>
-      </fieldset>
+      <p className="text-lg">
+        Please select an airport from the dropdown above to get started.
+      </p>
     </div>
   );
 }

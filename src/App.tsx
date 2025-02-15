@@ -1,17 +1,18 @@
 import { useState } from "react";
 import Navbar from "./layout/navbar";
 import Footer from "./layout/footer";
+import { UserContext } from "./sharedData";
 
 import Welcome from "./welcome";
+import AirportView from "./airportView";
 
 import "./App.css";
 
-function AirportSelector(props: { airport: string }) {
-  switch (props.airport) {
-    case "WELCOME":
-      return <Welcome />;
-    default:
-      return <Welcome />;
+function AirportDisplay(props: { airport: string }) {
+  if (props.airport == "WELCOME") {
+    return <Welcome />;
+  } else {
+    return <AirportView />;
   }
 }
 
@@ -20,11 +21,15 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <div className="py-24 px-12">
-        <AirportSelector airport={airport} />
-      </div>
-      <Footer />
+      <UserContext.Provider
+        value={{ airport: airport, setAirport: setAirport }}
+      >
+        <Navbar />
+        <div className="pt-12 pb-24 px-12">
+          <AirportDisplay airport={airport} />
+        </div>
+        <Footer />
+      </UserContext.Provider>
     </>
   );
 }
